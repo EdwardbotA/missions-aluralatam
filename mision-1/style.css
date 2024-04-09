@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.menu {
+  background-color: #a435f0;
+  padding: 10px;
+}
+
+.menu__container {
+  display: flex;
+  justify-content: space-around;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  font-size: 22px;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+}
+
+@media (max-width: 390px) {
+  .menu__container {
+    flex-direction: column;
+    height: auto;
+  }
+
+  li {
+    padding: 8px 16px;
+  }
+}
